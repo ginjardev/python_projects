@@ -65,10 +65,8 @@ def hangman():
         word = word[:index] + "_" + word[index + 1:]
         display = display[:index] + guess + display[index + 1:]
         print(display + "\n")
-
     elif guess in already_guessed:
         print("Try another letter.\n")
-
     else:
         count += 1 
 
@@ -134,12 +132,12 @@ def hangman():
             print("The word was:", already_guessed, word)
             play_loop()
 
-        if word == '_' * length:
-            print("Congrats! You have guessed the word correctly!")
-            play_loop()
+    if word == '_' * length:
+        print("Congrats! You have guessed the word correctly!")
+        play_loop()
         
-        elif count != limit:
-            hangman()
+    elif count != limit:
+        hangman()
 
 
 # calling the main function
