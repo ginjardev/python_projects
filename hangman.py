@@ -1,10 +1,9 @@
-from itertools import count
 import random
 import time
 
 print("Welcome to Hangman!")
 name = input("What is your name? ")
-print("Hello, " + name, "Time to play hangman, best of luck!")
+print("Hello, " + name, "time to play hangman, best of luck!")
 time.sleep(2)
 print("The game is about to start, let's go!")
 time.sleep(3)
@@ -18,7 +17,7 @@ def main():
     global already_guessed
     global length
     global play_game
-    words_to_guess = ["rainbow", "computer", "science", "programming", "python", "mathematics", "player", "condition", "reverse", "water", "board", "geeks"]
+    words_to_guess = ["player", "condition", "reverse", "water", "board", "geeks"]
     word = random.choice(words_to_guess)
     length = len(word)
     count = 0
@@ -36,9 +35,9 @@ def play_loop():
     while play_game not in ["y", "n", "Y", "N"]:
         play_game = input("Do you want to play again? y = yes, n = no \n")
     
-    if play_game == "y":
+    if play_game == "y" or play_game == "Y":
         main()
-    elif play_game == "n":
+    elif play_game == "n" or play_game == "N":
         print("Thanks for playing! See you next time.")
         exit()
 
