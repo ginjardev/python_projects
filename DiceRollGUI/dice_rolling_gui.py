@@ -18,12 +18,15 @@ bg = "dark green",
 font="Helvetica 16 bold italic")
 HeadingLabel.pack()
 
-
 #add images
 dice = ['die1.png','die2.png','die3.png','die4.png','die5.png','die6.png']
-
+resized_imgs = []
+for img in dice:
+    img = Image.open(img)
+    img = img.resize((50,50), Image.ANTIALIAS)
+    resized_imgs.append(ImageTk.PhotoImage(img))
 # simulate dice with random numbers from 0 - 6 with images
-DiceImage = ImageTk.PhotoImage(Image.open(random.choice(dice)))
+DiceImage = random.choice(resized_imgs)
 
 
 #construct a label widget for image
