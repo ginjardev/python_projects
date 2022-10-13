@@ -20,14 +20,14 @@ HeadingLabel.pack()
 
 
 #add images
-dice = ['die1.svg', 'die2.svg', 'die3.svg','die4.svg', 'die5.svg', 'die6.svg']
+dice = ['die1.png','die2.png','die3.png','die4.png','die5.png','die6.png']
 
 # simulate dice with random numbers from 0 - 6 with images
 DiceImage = ImageTk.PhotoImage(Image.open(random.choice(dice)))
 
 
-# #construct a label widget for image
-# ImageLabel = tkinter.Label(root, image=DiceImage)
-# ImageLabel.image = DiceImage
+#construct a label widget for image
+ImageLabel = tkinter.Label(root, image=DiceImage)
+ImageLabel.image = DiceImage
 
-# ImageLabel.pack(expand=True)
+ImageLabel.pack(expand=True)
