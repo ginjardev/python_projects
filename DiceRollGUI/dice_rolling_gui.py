@@ -30,4 +30,23 @@ DiceImage = ImageTk.PhotoImage(Image.open(random.choice(dice)))
 ImageLabel = tkinter.Label(root, image=DiceImage)
 ImageLabel.image = DiceImage
 
+#packing a widget in the parent widget
 ImageLabel.pack(expand=True)
+
+
+# function activated by button
+def rolling_dice():
+    DiceImage = ImageTk.PhotoImage(Image.open(random.choice(dice)))
+    #update image
+    ImageLabel.configure(image=DiceImage)
+    #reference
+    ImageLabel.image = DiceImage
+
+button = tkinter.Button(root, text="Roll Dice", fg="blue", command=rolling_dice)
+
+# pack a widget in the parent widget
+button.pack(expand=True)
+
+
+# call the mainloop of Tk
+root.mainloop()
