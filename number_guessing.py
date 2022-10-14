@@ -73,7 +73,21 @@ def guess_and_score():
 
 root = Tk()
 root.title("Number Guessing Game")
-root.geometry("500x500")
+root.geometry("350x200")
 
-Label(root, text="Number guessing game \nGuess a number between 1 and 10", font="ubunto Mono 12").pack()
+title_label = Label(root, text="Number guessing game \nGuess a number between 1 and 10", font=('Ubuntu Mono', 12))
+title_label.pack()
 
+random_number_button = Button(root, text="Generate Random Number", command=generate_target_number)
+random_number_button.pack()
+
+guess_label = Label(root, text="Enter your guess: ")
+guess_label.pack()
+
+guess_entry = Entry(root, width=10)
+guess_entry.pack()
+
+guess_button = Button(root, text="Guess", command=guess_and_score, state=DISABLED)
+guess_button.pack()
+
+root.mainloop()
