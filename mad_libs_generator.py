@@ -3,7 +3,7 @@ from tkinter import *
 root = Tk()
 root.geometry('400x400')
 root.title("Mad Libs Generator")
-Label(root, text="Mad Libs \nHave Fun", font='arial 20 bold')
+Label(root, text="Mad Libs \nHave Fun", font='arial 20 bold').pack()
 Label(root, text='Click Any One :').place(x=40, y=80)
 
 
