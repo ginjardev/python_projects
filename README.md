@@ -1,1 +1,1 @@
-# Some Fun Python Projects
+# Some Python Projects
