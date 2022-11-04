@@ -1,17 +1,13 @@
 from tkinter import *
 import datetime
 import time
-# import winsound
 import tkSnack
 
 
 
 
-clock = Tk()
-tkSnack.initializeSnack(clock)
 
-hour = datetime.datetime.now()
-print(hour.hour)
+
 
 def alarm(set_alarm_timer):
     while True:
@@ -21,14 +17,13 @@ def alarm(set_alarm_timer):
         date = current_time.strftime("%d/%m/%Y")
         print("The Set Date is: ", date)
         print(now)
+
         if now == set_alarm_timer:
             print("Time to wake up")
-        #winsound.PlaySound("sound.wav", winsound.SND_ASYNC)
-        global tkSnack
-        snd = tkSnack.Sound()
-        snd.read('dripchord.wav')
-        snd.play(blocking=1)
-        break
+            snd = tkSnack.Sound()
+            snd.read('dripchord.wav')
+            snd.play(blocking=1)
+            break
 
 
 def actual_time():
@@ -37,6 +32,9 @@ def actual_time():
 
 
 #clock gui 
+
+clock = Tk()
+tkSnack.initializeSnack(clock)
 
 clock.title("Alarm Clock")
 clock.geometry('400x300')
