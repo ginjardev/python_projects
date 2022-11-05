@@ -6,9 +6,8 @@ from tkinter import messagebox
 try:
     connect = sql.connect('note.db')
     cursor = connect.cursor()
-    cursor.execute(''' CREATE TABLE notes_table
-    (date text, notes_title text, noted text)
-    ''')
+    cursor.execute('''CREATE TABLE notes_table
+                        (date text, notes_title text, notes text)''')
 except:
     print('Connected to table of database')
 
@@ -18,7 +17,7 @@ def add_notes():
     notes_title = notes_title_entry.get()
     notes = notes_entry.get('1.0', 'end-1c')
 
-    if(len(today) <= 0) and (len(notes_title) <= 0) and (len(note) <= 1):
+    if(len(today) <= 0) and (len(notes_title) <= 0) and (len(notes) <= 1):
         messagebox.showerror(message="Enter some details")
     else:
         cursor.execute("INSERT INTO notes_table VALUES ('%s','%s','%s')" %(today, notes_title, notes))
@@ -46,7 +45,7 @@ def view_notes():
         messagebox.showerror(message="No note found")
     else: 
         for i in row:
-            messagebox.showinfo(message="Date: " + i[0] + "\nTitle "+ i[1] + "\nNotes " + i[2])
+            messagebox.showinfo(message="Date: " + i[0] + "\nTitle: "+ i[1] + "\nNotes: " + i[2])
 
 
 
