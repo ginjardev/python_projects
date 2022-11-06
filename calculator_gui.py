@@ -1,5 +1,6 @@
 from tkinter import *
 from parse import *
+from parse import parse
 from math import factorial
 
 
@@ -25,8 +26,8 @@ Button(app, text=8, command=lambda:get_variable(8)).grid(row=4, column=1, sticky
 Button(app, text=9, command=lambda:get_variable(9)).grid(row=4, column=2, sticky=N+S+E+W)
 
 Button(app, text="AC", command=lambda:clear_all()).grid(row=5, column=0, sticky=N+S+E+W)
-Button(app,text=" 0",command = lambda :get_variables(0)).grid(row=5,column=1, sticky=N+S+E+W)
-Button(app,text=" .",command = lambda :get_variables(".")).grid(row=5,column=2, sticky=N+S+E+W)
+Button(app,text=" 0",command = lambda :get_variable(0)).grid(row=5,column=1, sticky=N+S+E+W)
+Button(app,text=" .",command = lambda :get_variable(".")).grid(row=5,column=2, sticky=N+S+E+W)
 
 Button(app,text="+", command = lambda :get_operation("+")).grid(row=2,column=3, sticky=N+S+E+W)
 Button(app,text="-", command = lambda :get_operation("-")).grid(row=3,column=3, sticky=N+S+E+W)
@@ -58,6 +59,40 @@ def get_operation(operator):
     length = len(operator)
     display.insert(i, operator)
     i+=length
+
+def clear_all():
+    display.delete(0, END)
+
+def undo():
+    entire_string = display.get()
+    if len(entire_string):
+        new_string = entire_string[:-1]
+        clear_all()
+        display.insert(0, new_string)
+    else:
+        clear_all()
+        display.insert(0, "Error")
+
+def calculate():
+    entire_string = display.get()
+    try:
+        result = eval(entire_string)
+        clear_all()
+        display.insert(0, result)
+    except Exception:
+        clear_all()
+        display.insert(0, "Error")
+
+
+def fact():
+    entire_string = display.get()
+    try:
+        result = factorial(int(entire_string))
+        clear_all()
+        display.insert(0, result)
+    except Exception:
+        clear_all()
+        display.insert(0, "Error")
 
 
 
