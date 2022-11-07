@@ -27,3 +27,10 @@ convert = RealTimeCurrencyConverter(api)
 amount = convert.convert('ZAR','USD', 137000)
 
 print(amount)
+
+class CurrencyConverterUI():
+    def __init__(self, converter):
+        tk.Tk.__init__(self)
+        self.title = 'Currency Converter'
+        self.currency_converter = converter
+        self.geometry("500x200")
