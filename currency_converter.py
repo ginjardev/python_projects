@@ -24,7 +24,7 @@ api = 'https://open.er-api.com/v6/latest/USD'
 
 convert = RealTimeCurrencyConverter(api)
 
-amount = convert.convert('ZAR','USD', 137000)
+amount = convert.convert('NGN','USD', 137000)
 
 print(amount)
 
@@ -34,3 +34,14 @@ class CurrencyConverterUI():
         self.title = 'Currency Converter'
         self.currency_converter = converter
         self.geometry("500x200")
+
+        self.intro_label = Label(self, text="Welcome to Teal Time Currency Converter", fg='blue', relief = tk.RAISED, borderwidth = 3)
+        self.intro_label.config(font=('Courier', 15, 'bold'))
+
+        self.date_label = Label(self, text=f"1 Nigerian Naira equals = {self.currency_converter.convert('NGN','USD',1)} USD \n Date : {self.currency_converter.data['date']}", relief=tk.GROOVE, borderwidth=5)
+
+        self.intro_label.place(x=10, y=5)
+        self.date_label.place(x=170, y=50)
+
+
+c = CurrencyConverterUI(convert)
