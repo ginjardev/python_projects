@@ -32,7 +32,7 @@ class App(tk.Tk):
         self.intro_label = Label(self, text = 'Welcome to Real Time Currency Converter', fg='blue', relief= tk.RAISED, borderwidth=3)
         self.intro_label.config(font = ('Courier', 15, 'bold'))
 
-        self.date_label = Label(self, text=f"1 Nigerian Naira equals = {self.currency_converter.convert('NGN','USD',1)} USD \n Date : {self.currency_converter.data['date']}", relief=tk.GROOVE, borderwidth=5)
+        self.date_label = Label(self, text=f"1 Nigerian Naira equals = {self.currency_converter.converter('NGN','USD',1)} USD \n Date : {self.currency_converter.data['time_last_update_utc']}", relief=tk.GROOVE, borderwidth=5)
 
         self.intro_label.place(x=10, y=5)
         self.date_label.place(x=160, y=50)
@@ -69,7 +69,7 @@ class App(tk.Tk):
         from_curr = self.from_currency_variable.get()
         to_curr = self.to_currency_variable.get()
 
-        converted_amount = self.currency_converter.convert(from_curr, to_curr, amount)
+        converted_amount = self.currency_converter.converter(from_curr, to_curr, amount)
         converted_amount = round(converted_amount, 2)
 
         self.converted_amount_field_label.config(text=str(converted_amount))
@@ -85,6 +85,7 @@ if __name__ == '__main__':
     converter = RealTimeCurrencyConverter(url)
 
     App(converter)
-    mainloop
+    mainloop()
 
 
+tk.Tk.title
