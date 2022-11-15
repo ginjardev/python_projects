@@ -154,15 +154,15 @@ address_entry = Text(left_frame, width=15, font=("Verdana", 11), height=5)
 address_entry.place(relx=0.1, rely=0.55)
 
 # middle frame
-Label(center_frame, text="Search", font=frame_font, bg=cf_bg).place(relx=0.3, rely=0.03)
-search_entry = Entry(center_frame, width=18, font=("Verdana", 12), textvariable=search).place(relx=0.08, rely=0.1)
+# Label(center_frame, text="Search", font=frame_font, bg=cf_bg).place(relx=0.3, rely=0.03)
+search_entry = Entry(center_frame, width=18, font=("Verdana", 12), textvariable=search).place(relx=0.06, rely=0.04)
 
-Button(center_frame, text="Search", font=frame_font, width=15, command=search_record).place(relx=0.13, rely=0.1)
-Button(center_frame, text="Add Record", font=frame_font, width=15, command=submit_record).place(relx=0.13, rely=0.2)
-Button(center_frame, text="View Record", font=frame_font, width=15, command=view_record).place(relwidth=0.13, rely=0.3)
-Button(center_frame, text="Clear Fields", font=frame_font, width=15, command=clear_fields).place(relwidth=0.13, rely=0.4)
-Button(center_frame, text="Delete Record", font=frame_font, width=15, command=delete_record).place(relwidth=0.13, rely=0.5)
-Button(center_frame, text="Delete All Records", font=frame_font, width=15, command=delete_all_records).place(relwidth=0.13, rely=0.6)
+Button(center_frame, text="Search", font=frame_font, width=13, command=search_record).place(relx=0.05, rely=0.1)
+Button(center_frame, text="Add Record", font=frame_font, width=13, command=submit_record).place(relx=0.05, rely=0.2)
+Button(center_frame, text="View Record", font=frame_font, width=13, command=view_record).place(relx=0.05, rely=0.3)
+Button(center_frame, text="Clear Fields", font=frame_font, width=13, command=clear_fields).place(relx=0.05, rely=0.4)
+Button(center_frame, text="Delete Record", font=frame_font, width=13, command=delete_record).place(relx=0.05, rely=0.5)
+Button(center_frame, text="Delete All Records", font=frame_font, width=14, command=delete_all_records).place(relx=0.04, rely=0.6)
 
 # right frame
 Label(right_frame, text="Saved Contacts", font=("Roboto", 14), bg=rf_bg).place(relx=0.25, rely=0.05)
