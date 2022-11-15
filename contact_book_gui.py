@@ -26,6 +26,7 @@ frame_font = ("Garamond", 14)
 name = StringVar()
 phone = StringVar()
 email = StringVar()
+search = StringVar()
 
 
 Label(app, text="Contact Book", font=("Roboto", 15, "bold"), bg="Black", fg="White").pack(side=TOP, fill=X)
@@ -49,11 +50,24 @@ name_entry = Entry(left_frame, width=15, font=("Verdana", 11), textvariable=name
 name_entry.place(relx=0.1, rely=0.1)
 
 
-Label(left_frame, text='Phone No.', bg=lf_bg, font=("Verdana", 11), textvariable=phone).place(relx=0.23, rely=0.2)
+Label(left_frame, text='Phone No.', bg=lf_bg, font=frame_font).place(relx=0.23, rely=0.2)
 
 phone_entry = Entry(left_frame, width=15, font=("Verdana", 11), textvariable=phone)
 phone_entry.place(relx=0.1, rely=0.25)
 
 Label(left_frame, text="Email", bg=lf_bg, font=frame_font).place(relx=0.3, rely=0.35)
 
-email_entry = Entry(left_frame, width=15, font=("Verdana", 11))
+email_entry = Entry(left_frame, width=15, font=("Verdana", 11), textvariable=email)
+email_entry.place(relx=0.1, rely=0.4)
+
+Label(left_frame, text="Address", bg=lf_bg, font=frame_font).place(relx=0.28, rely=0.5)
+
+address_entry = Text(left_frame, width=15, font=("Verdana", 11), height=5)
+address_entry.place(relx=0.1, rely=0.55)
+
+# middle frame
+search_entry = Entry(center_frame,width=18, font=("Verdana", 11), textvariable=search).place(relx=0.08, rely=0.04)
+
+
+
+app.mainloop()
