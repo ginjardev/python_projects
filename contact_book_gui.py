@@ -28,6 +28,94 @@ phone = StringVar()
 email = StringVar()
 search = StringVar()
 
+# the functions
+def submit_record(): 
+    global name, email, phone, address_entry
+    global cursor
+    name, email, phone, address = name.get(), email.get(), phone.get(), address_entry.get(1.0, END)
+
+    if name == '' or email == '' or phone == '' or address == '':
+        messagebox.showerror('Error!', 'Please fill all the fields')
+    else:
+        cursor.execute(
+            "INSERT INTO CONTACT_BOOK (NAME, EMAIL, PHONE_NUMBER, ADDRESS) VALUES (?, ?, ?, ?)", (name, email, phone, address)
+        )
+        connector.commit()
+        messagebox.showinfo('Contact added, contact stored successfully')
+        listbox.delete(0, END)
+        list_contacts()
+        clear_fields()
+
+
+def list_contacts():
+    curr = connector.execute('SELECT NAME FROM CONTACT_BOOK')
+    fetch = curr.fetchall()
+
+
+def delete_record():
+    global listbox, connector, cursor
+
+    if not listbox.get(ACTIVE):
+        messagebox.showerror("No item selected, you have not selected any item")
+    
+    cursor.execute('DELETE FROM CONTACT_BOOK WHERE NAME= ?', (listbox.get(ACTIVE)))
+    connector.commit()
+
+    messagebox.showinfo("Contact Deleted")
+    listbox.delete(0,END)
+    list_contacts()
+
+
+def delete_all_records():
+    cursor.execute('DELETE FROM CONTACT_BOOK')
+    connector.commit()
+
+    messagebox.showinfo("All records deleted")
+    listbox.delete(0, END)
+    list_contacts()
+
+
+def view_record():
+    global name, phone, email, address_entry, listbox
+
+    curr = cursor.execute(
+        "SELCT FROM CONTACT_BOOK WHERE NAME = ?", listbox.get(ACTIVE)
+    )
+    values = curr.fetchall()[0]
+
+    name.set(values[1]); phone.set(values[3]); email.set(values[2])
+
+    address_entry.delete(1.0, END)
+    address_entry.insert(END, values[4])
+
+
+def clear_fields():
+    global name, phone, email, address_entry, listbox
+
+    listbox.select_clear(0, END)
+
+    name.set("")
+    phone.set("")
+    email.set("")
+    address_entry.delete(1.0, END)
+
+
+def search_record():
+    query = str(search.get())
+
+    if query != '':
+        listbox.delete(0, END)
+
+        curr = connector.execute(
+            "SELECT * FROM CONTACT_BOOK WHERE NAME= ?", ('%'+query+'%', )
+        )
+        check = curr.fetchall()
+
+        for data in check:
+            listbox.insert(END, data[1])
+
+
+
 
 Label(app, text="Contact Book", font=("Roboto", 15, "bold"), bg="Black", fg="White").pack(side=TOP, fill=X)
 
@@ -66,7 +154,26 @@ address_entry = Text(left_frame, width=15, font=("Verdana", 11), height=5)
 address_entry.place(relx=0.1, rely=0.55)
 
 # middle frame
-search_entry = Entry(center_frame,width=18, font=("Verdana", 11), textvariable=search).place(relx=0.08, rely=0.04)
+Label(center_frame, text="Search", font=frame_font, bg=cf_bg).place(relx=0.3, rely=0.03)
+search_entry = Entry(center_frame, width=18, font=("Verdana", 12), textvariable=search).place(relx=0.08, rely=0.1)
+
+Button(center_frame, text="Search", font=frame_font, width=15, command=search_record).place(relx=0.13, rely=0.1)
+Button(center_frame, text="Add Record", font=frame_font, width=15, command=submit_record).place(relx=0.13, rely=0.2)
+Button(center_frame, text="View Record", font=frame_font, width=15, command=view_record).place(relwidth=0.13, rely=0.3)
+Button(center_frame, text="Clear Fields", font=frame_font, width=15, command=clear_fields).place(relwidth=0.13, rely=0.4)
+Button(center_frame, text="Delete Record", font=frame_font, width=15, command=delete_record).place(relwidth=0.13, rely=0.5)
+Button(center_frame, text="Delete All Records", font=frame_font, width=15, command=delete_all_records).place(relwidth=0.13, rely=0.6)
+
+# right frame
+Label(right_frame, text="Saved Contacts", font=("Roboto", 14), bg=rf_bg).place(relx=0.25, rely=0.05)
+
+listbox = Listbox(right_frame, selectbackground="SkyBlue", bg="green", font=('Helvetica', 12), height=20, width=25)
+scroller = Scrollbar(listbox, orient=VERTICAL, command=listbox.yview)
+scroller.place(relx=0.93, rely=0, relheight=1)
+listbox.config(yscrollcommand=scroller.set)
+listbox.place(relx=0.1, rely=0.15)
+
+list_contacts()
 
 
 
