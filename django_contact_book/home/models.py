@@ -6,3 +6,5 @@ class Contact(models.Model):
     last_name = models.CharField(max_length=120)
     email = models.EmailField()
     contact_number = models.CharField(max_length=11)
+
+    
