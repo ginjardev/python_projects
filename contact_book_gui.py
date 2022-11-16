@@ -50,6 +50,9 @@ def submit_record():
 def list_contacts():
     curr = connector.execute('SELECT NAME FROM CONTACT_BOOK')
     fetch = curr.fetchall()
+    for data in fetch:
+            listbox.insert(END, data)
+            # print(data)
 
 
 def delete_record():
@@ -78,15 +81,15 @@ def delete_all_records():
 def view_record():
     global name_str, phone_str, email_str, address_entry, listbox
 
-    curr = cursor.execute(
-        "SELECT * FROM CONTACT_BOOK WHERE NAME = ?", listbox.get(ACTIVE)
-    )
+    curr = cursor.execute('SELECT * FROM CONTACT_BOOK WHERE NAME=?', listbox.get(ACTIVE))
+
     values = curr.fetchall()[0]
 
     name_str.set(values[1]); phone_str.set(values[3]); email_str.set(values[2])
 
     address_entry.delete(1.0, END)
     address_entry.insert(END, values[4])
+    
 
 
 def clear_fields():
@@ -150,7 +153,7 @@ email_entry.place(relx=0.1, rely=0.4)
 
 Label(left_frame, text="Address", bg=lf_bg, font=frame_font).place(relx=0.28, rely=0.5)
 
-address_entry = Text(left_frame, width=15, font=("Verdana", 11), height=5)
+address_entry = Text(left_frame, width=17, font=("Verdana", 11), height=5)
 address_entry.place(relx=0.1, rely=0.55)
 
 # middle frame
