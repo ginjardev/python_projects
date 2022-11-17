@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Book</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}">
+
+    <style>
+        body{
+            background-color: lightseagreen;
+            font-family: sans-serif;
+        }
+        .table-container{
+            padding: 0 10%;
+            margin: 40px auto 0;
+        }
+        .heading{
+            font-size: 40 px;
+            text-align: center;
+            color: #f1f1f1;
+            margin-bottom: 40px;
+        }
+        .table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table thead{
+            background-color: #0000ff;
+        }
+        .table thead tr th{
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.35px;
+            color: #ffff;
+            opacity: 1;
+            padding: 12px;
+            vertical-align: top;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <form action="{% url 'formupdate' contact.id %}" class="form-inline" method="post">
+        {% csrf_token %}
+        <label for = "firstname">First Name:</label>
+        <input type="text" id="firstname" placeholder="Enter First  Name" name="firstname" value={{Data.FirstName}}>
+        <label for = "lastname">Last Name:</label>
+        <input type="text" id="lastname" placeholder="Enter Last  Name" name="lastname" value={{Data.LastName}}>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email" name="email" value={{Data.Email}}>
+        <label for="phone">Contact Number:</label>
+        <input type="phone" id="phone" name="phone" placeholder="Enter Contact Number" value={{Data.ContactNumber}}>
+        <button type="submit" >Add</button>
+</form>
+</body>
+</html>
