@@ -59,16 +59,16 @@
 
 <body>
     <h1>contact Book</h1>
-    <form acton="/saveinfo" class="form-inline" method="post">
+    <form acton="{% url 'saveinfo' %}" class="form-inline" method="post">
         {% csrf_token %}
         <label for="firstname">First Name:</label>
-        <input type="text" id="firstname" placeholder="Enter First Name" name="firstname" required>
+        <input type="text" id="firstname" placeholder="Enter First Name" name="first_name" required>
         <label for="lastname">Last Name:</label>
-        <input type="text" id="lastname" placeholder="Enter Last Name" name="lastname" required>
+        <input type="text" id="lastname" placeholder="Enter Last Name" name="last_name" required>
         <label for="email">Email:</label>
         <input type="email" id="email" placeholder="Enter email" name="email" required>
         <label for="phone">Contact Number:</label>
-        <input type="phone" id="phone" name="phone" placeholder="Enter Contact Number" name="ContactNumber" required>
+        <input type="phone" id="phone" name="phone" placeholder="Enter Contact Number" name="contact_number" required>
         <button type="submit">Add</button>
     </form>
     <br>
@@ -91,12 +91,12 @@
                     <th>Delete</th>
                 </tr>
             </thead>
-            {% for info in data %}
+            {% for info in Data %}
             <tr>
-                <td data-label="Name">{{info.FirstName}}</td>
-                <td data-label="Name">{{info.LastName}}</td>
-                <td data-label="Email">{{info.Email}}</td>
-                <td data-label="ContactNumber">{{info.ContactNumber}}</td>
+                <td data-label="Name">{{ info.first_name}}</td>
+                <td data-label="Name">{{ info.last_name }}</td>
+                <td data-label="Email">{{ info.email }}</td>
+                <td data-label="ContactNumber">{{ info.contact_number }}</td>
                 <td><a href="{% url 'edit' info.id %}" class=" btn btn-success ">Edit</a></td>
                 <td><a href="{% url 'delete' info.id %}" class=" btn btn-danger ">Delete</a></td>
             </tr>

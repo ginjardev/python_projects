@@ -6,16 +6,21 @@ from .models import Contact
 # Create your views here.
 def saveinfo(request):
     if request.method == "POST":
-        first_name = request.POST['first_name']
-        last_name = request.POST['last_name']
-        email = request.POST['email']
-        contact_number = request.POST['phone']
+        first_name = request.POST.get('first_name')
+        print(first_name)
+        print()
+        print()
+        last_name = request.POST.get('last_name')
+        email = request.POST.get('email')
+        contact_number = request.POST.get('phone')
 
-        contact = Contact(first_name= first_name, last_name=last_name, email=email, contact_number=contact_number)
-        contact.save()
+        # contact = Contact(first_name= first_name, last_name=last_name, email=email, contact_number=contact_number)
+        # contact.save()
+        Contact.objects.create(first_name= first_name, last_name=last_name, email=email, contact_number=contact_number)
     
     data = Contact.objects.all()
-    return render(request, "index.html", {'Data':data})
+    print(data)
+    return render(request, "index.html", {'Data': data})
 
 
 def index(request):
@@ -37,12 +42,11 @@ def formupdate(request,id):
 
 def edit(request, id):
     data = Contact.objects.get(id=id)
-    data.delete()
-    return redirect('index')
+    return render(request,'edit.html',{'Data':data})
 
 def delete(request,id):
-    contact = Contact.objects.all()
-    contact.delete()
+    data = Contact.objects.get(id=id)
+    data.delete()
     return redirect('index')
 
 def search(request):
