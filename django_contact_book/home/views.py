@@ -7,9 +7,6 @@ from .models import Contact
 def saveinfo(request):
     if request.method == "POST":
         first_name = request.POST.get('first_name')
-        print(first_name)
-        print()
-        print()
         last_name = request.POST.get('last_name')
         email = request.POST.get('email')
         contact_number = request.POST.get('phone')
@@ -50,7 +47,8 @@ def delete(request,id):
     return redirect('index')
 
 def search(request):
-    query = request.GET["query1"]
+    query = request.GET['query1']
+
     data = Contact.objects.filter(contact_number__icontains = query)
     params = {"Data": data}
     return render(request, 'search.html', params)
