@@ -48,7 +48,15 @@ def delete(request,id):
 
 def search(request):
     query = request.GET['query1']
+    if Contact.objects.filter(contact_number__icontains = query):
+        data = Contact.objects.filter(contact_number__icontains = query)
+    elif Contact.objects.filter(first_name__icontains = query):
+        data = Contact.objects.filter(first_name__icontains = query)
+    elif Contact.objects.filter(last_name__icontains = query):
+        data = Contact.objects.filter(last_name__icontains = query)
+    else:
+        data = Contact.objects.filter(email__icontains = query)
 
-    data = Contact.objects.filter(contact_number__icontains = query)
+    # data = Contact.objects.filter(contact_number__icontains = query)
     params = {"Data": data}
     return render(request, 'search.html', params)
