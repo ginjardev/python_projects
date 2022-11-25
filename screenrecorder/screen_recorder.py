@@ -1,5 +1,6 @@
 import tkinter
-from PIL import ImageGrab
+# from PIL import ImageGrab
+import pyscreenshot as ImageGrab
 import cv2
 import numpy as np
 from tkinter import *
@@ -12,7 +13,7 @@ def record_screen():
 
     #Extract and print shape of array
     shape = img_np_arr.shape
-    print(shape)
+    # print(shape)
 
     #create video writer
     screen_cap_writer = cv2.VideoWriter('screen_recorded.avi', cv2.VideoWriter_fourcc('M','J','P','G'), 50, (shape[1], shape[0]))
