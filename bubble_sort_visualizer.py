@@ -6,7 +6,7 @@ array1 = ""
 array = []
 
 # screen dimensions
-screen = pygame.display.set_mode(700, 500)
+screen = pygame.display.set_mode((700,500))
 font = pygame.font.SysFont('ubuntu mono', 20)
 run = True
 
