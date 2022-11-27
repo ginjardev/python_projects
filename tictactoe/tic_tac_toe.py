@@ -96,7 +96,8 @@ def check_win():
     
     if (all([all(row) for row in TTT]) and winner is None ):
         draw = True
-        draw_status()
+        
+    draw_status()
 
 
 def drawXO(row, col):
