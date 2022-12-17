@@ -142,7 +142,7 @@ class Game:
         self.gamepanel.window.bind('<Key>', self.link_keys)
         self.gamepanel.window.mainloop()
 
-    def link_key(self,event):
+    def link_keys(self,event):
         if self.end or self.won:
             return
         self.gamepanel.compress = False
