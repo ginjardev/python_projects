@@ -136,7 +136,7 @@ class Game:
         self.won = False
 
     def start(self):
-        self.gamepanel.random_cell()
+        # self.gamepanel.random_cell()
         self.gamepanel.random_cell()
         self.gamepanel.paint_grid()
         self.gamepanel.window.bind('<Key>', self.link_keys)
@@ -164,7 +164,7 @@ class Game:
             self.gamepanel.compress_grid()
             self.gamepanel.merge_grid()
             self.gamepanel.moved = self.gamepanel.compress or self.gamepanel.merge
-            self.gamepanel.compressGrid()
+            self.gamepanel.compress_grid()
             self.gamepanel.reverse()
             self.gamepanel.transpose()
 
