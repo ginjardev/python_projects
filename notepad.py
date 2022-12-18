@@ -5,7 +5,7 @@ from tkinter import font, filedialog
 app = Tk()
 app.title("Python Text Editor")
 
-text_area = Text(app)
+text_area = Text(app, bg='grey')
 text_area.grid(row=2, columnspan=5)
 
 
@@ -59,5 +59,5 @@ bold_btn = Button(app, command=bold_doc, text="Bold")
 bold_btn.grid(row=1, column=2)
 bold_btn.config(font=('arial', 20, 'bold'), bg="DodgerBlue2", fg="white")
 
-
+app.mainloop()
 
