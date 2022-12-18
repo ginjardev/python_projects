@@ -5,7 +5,7 @@ from tkinter import font, filedialog
 app = Tk()
 app.title("Python Text Editor")
 
-text_area = Text(app, bg='grey')
+text_area = Text(app)
 text_area.grid(row=2, columnspan=5)
 
 
