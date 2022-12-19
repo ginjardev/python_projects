@@ -71,7 +71,56 @@ def display_screen():
             #user quits window
             if e.type == pygame.QUIT:
                 pygame.quit()
+                exit()
 
             #any other key pressed 
             if e.type == pygame.KEYDOWN:
                 wait = False
+
+
+while True:
+    if game_not_over:
+        if not game_started:
+            display_screen()
+
+        game_started = True
+    
+    game_not_over = False
+
+    # loading playing character
+    character = pygame.image.load('character.png')
+    character = pygame.transform.scale(character, (50,50))
+
+    window.blit(bg,(0,0))
+    y += speed
+    #display character
+    window.blit(character, (x-100,y))
+    put_text(x,y,str(curr_word), 35)
+
+    #displaying score
+    put_text(300, 5, 'Score: ' + str(score), 35)
+
+    #events
+    for e in pygame.event.get():
+        if e.type == pygame.QUIT:
+            pygame.quit()
+
+        elif e.type == pygame.KEYDOWN:
+            print(pygame.key.name(e.key))
+            player_word += pygame.key.name(e.key)
+
+            if curr_word.startswith(player_word):
+                if curr_word == player_word:
+                    score += 10
+                    generate_word()
+            
+            else: 
+                display_screen()
+                time.sleep(2)
+                pygame.quit()
+                exit()
+
+    if y < 590:
+        pygame.display.update()
+    else:
+        display_screen()
