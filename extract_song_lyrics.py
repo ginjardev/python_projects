@@ -41,10 +41,10 @@ def lyrics_extractor():
         soup_lyrics = BeautifulSoup(result.content, "html.parser")
 
 
-        if("tamil" in first_value["link"]) | ("hindi" in first_value["link"]):
-            lyrics = soup_lyrics.find(class_ = "print-lyrics")
+        if("genius" in first_value["link"]):
+            lyrics = soup_lyrics.find("div", {"id":"lyrics-root"})
         elif "azlyrics" in first_value["link"]:
-            lyrics = soup_lyrics.find("div", {"class": "", "id": ""})
+            lyrics = soup_lyrics.find("div", {"class": '', "id":""})
 
         try:
             display_lyrics = scrolledtext.ScrolledText(lyrics_app, width = 60, height=10, font=("Ubuntu Mono",10), bd=0, bg="seagreen3")
