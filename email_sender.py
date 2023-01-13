@@ -28,7 +28,7 @@ context = ssl.create_default_context()
 yahoo_smtpserver = smtplib.SMTP('smtp.mail.yahoo.com', 587)
 yahoo_smtpserver.ehlo()
 yahoo_smtpserver.starttls()
-yahoo_smtpserver.ehlo()
+yahoo_smtpserver.ehlo
 print('server created')
 yahoo_smtpserver.login(yusername, ypassword)
 print('logged in')
