@@ -1,4 +1,4 @@
-# Scrapy settings for booksscraper project
+# Scrapy settings for amazonreview project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'booksscraper'
+BOT_NAME = 'amazonreview'
 
-SPIDER_MODULES = ['booksscraper.spiders']
-NEWSPIDER_MODULE = 'booksscraper.spiders'
+SPIDER_MODULES = ['amazonreview.spiders']
+NEWSPIDER_MODULE = 'amazonreview.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'booksscraper (+http://www.yourdomain.com)'
+#USER_AGENT = 'amazonreview (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -45,20 +45,20 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'booksscraper.middlewares.BooksscraperSpiderMiddleware': 543,
+#    'amazonreview.middlewares.AmazonreviewSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'booksscraper.middlewares.BooksscraperDownloaderMiddleware': 543,
+#    'amazonreview.middlewares.AmazonreviewDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
 DOWNLOAD_TIMEOUT = 540
-DOWNLOAD_DELAY = 3
-DEPTH_LIMIT = 2
+DOWNLOAD_DELAY = 5
+DEPTH_LIMIT = 50
 
 EXTENSIONS = {
    'scrapy.extensions.telnet.TelnetConsole': None,
@@ -68,7 +68,7 @@ EXTENSIONS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'booksscraper.pipelines.BooksscraperPipeline': 300,
+   'amazonreview.pipelines.AmazonreviewPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

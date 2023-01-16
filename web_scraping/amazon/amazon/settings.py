@@ -1,4 +1,4 @@
-# Scrapy settings for booksscraper project
+# Scrapy settings for amazon project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,17 +7,17 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'booksscraper'
+BOT_NAME = 'amazon'
 
-SPIDER_MODULES = ['booksscraper.spiders']
-NEWSPIDER_MODULE = 'booksscraper.spiders'
+SPIDER_MODULES = ['amazon.spiders']
+NEWSPIDER_MODULE = 'amazon.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'booksscraper (+http://www.yourdomain.com)'
+#USER_AGENT = 'amazon (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -45,21 +45,20 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'booksscraper.middlewares.BooksscraperSpiderMiddleware': 543,
+#    'amazon.middlewares.AmazonSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'booksscraper.middlewares.BooksscraperDownloaderMiddleware': 543,
+#    'amazon.middlewares.AmazonDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
 DOWNLOAD_TIMEOUT = 540
-DOWNLOAD_DELAY = 3
-DEPTH_LIMIT = 2
-
+DOWNLOAD_DELAY = 5
+DEPTH_LIMIT = 10
 EXTENSIONS = {
    'scrapy.extensions.telnet.TelnetConsole': None,
    'scrapy.extensions.closespider.CloseSpider': 1
@@ -68,7 +67,7 @@ EXTENSIONS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'booksscraper.pipelines.BooksscraperPipeline': 300,
+   'amazon.pipelines.AmazonPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

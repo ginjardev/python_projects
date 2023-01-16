@@ -1,16 +1,47 @@
 import scrapy
 from booksscraper.items import BooksscraperItem
 
+
 class BspiderSpider(scrapy.Spider):
     name = 'bspider'
-    allowed_domains = ['amazon.com']
-    start_urls = ['https://www.amazon.com/s?bbn=2649512011&rh=n%3A2649512011%2Cp_n_theme_browse-bin%3A2650366011&dc&qid=1673642373&rnid=2650362011&ref=lp_2649512011_nr_p_n_theme_browse-bin_1']
+    allowed_domains = ['amazon.com']    
+
+    start_urls = [
+        "https://amzn.to/3XfgcyH"
+    ]
 
     def parse(self, response):
-        names = response.css('span.a-size-medium.a-color-base.a-text-normal::text').extract()
-        years = response.css('span.a-size-base.a-color-secondary.a-text-normal::text').extract()
-        ratings = response.css('span.a-icon-alt::text').extract()
-        prices = response.css('span.a-offscreen::text').extract()
+        links = response.css('a.a-link-normal.s-no-outline::attr(href)').extract()
+        for link in links:
+            link = 'https://www.amazon.com' + link
+            # yield scrapy.Request(url=link, callback=self.parse_details)
+            yield response.follow(link, callback=self.parse_details)
 
-        for (name, year, rating, price) in zip(names, years, ratings, prices): 
-            yield BooksscraperItem(name= name, year= year, rating = rating, price=price)
+        next_page = response.css('span.s-pagination-strip a::attr(href)').extract()
+        next_page = next_page[-1]
+        nexturl = "https://www.amazon.com" + next_page
+        # yield {'link': nexturl}
+        yield response.follow(nexturl, callback=self.parse)
+
+    def parse_details(self, response):
+        name = response.css('h1._2IIDsE._2sL6wP::text').extract_first()
+        description = response.css('div._3qsVvm._1wxob_ > div::text').extract_first()
+        year = response.css('span.XqYSS8:nth-of-type(3) > span::text').extract_first()
+        rating = response.css('span.FDDgZI > span::text').extract_first()
+        price = response.css('button.SPqQmU._3RF4FN._1D7HW3._2G6lpB.tvod-button.av-button > span::text').extract()
+
+        # next_page = response.css('span.s-pagination-strip a::attr(href)').extract()
+        yield BooksscraperItem(name = name, description = description, year = year, rating = rating, price=price[3])
+
+        # if next_page is not None: 
+        #     next_page = next_page[-1]
+        #     nexturl = "https://www.amazon.com" + next_page
+        #     yield response.follow(nexturl, callback=self.parse)
+           
+
+        
+        
+
+    
+
+

@@ -8,9 +8,10 @@ import scrapy
 
 class BooksscraperItem(scrapy.Item):
     # define the fields for your item here like:
-    name = scrapy.Field()
-    year = scrapy.Field()
-    rating = scrapy.Field()
-    price = scrapy.Field()
+    name = scrapy.Field(default='null')
+    description = scrapy.Field(default='null')
+    year = scrapy.Field(default='null')
+    rating = scrapy.Field(default='null')
+    price = scrapy.Field(default='null')
 
     
