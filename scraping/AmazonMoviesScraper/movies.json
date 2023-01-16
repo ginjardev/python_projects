@@ -1,45 +1,346 @@
 [
-{"name": "Honk for Jesus. Save Your Soul.", "description": "Following a scandal, a megachurch pastor and proud first lady must rebuild their congregation to make the biggest comeback that commodified religion has ever seen.", "year": "2022", "rating": "5.4", "price": " $19.99"},
-{"name": "The Croods", "description": "Join the Croods on the journey of a lifetime in the epic comedy-adventure that \u201chas the magical wonder of How To Train Your Dragon\u201d \u2014 Jake Hamilton (Fox-TV). When their cave is destroyed, the Croods set out to explore a spectacular landscape filled with fantastic creatures, strange surprises, and a whole new world of adventure!", "year": "2013", "rating": "7.2", "price": " $14.99"},
-{"name": "The Devil Wears Prada", "description": "A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine.", "year": "2006", "rating": "6.9", "price": " $14.99"},
-{"name": "Dog", "description": "In this road-trip comedy, two hard-charging former Army Rangers paired against their will - Briggs and a Belgian Malinois named Lulu - race down the Pacific Coast in hopes of making it to a fellow soldier's funeral on time.", "year": "2022", "rating": "6.5", "price": " $19.99"},
-{"name": "A Christmas Wish", "description": "A down-on-her-luck mom (Kristy Swanson) finds herself penniless and homeless just before Christmas when her husband leaves her. To support herself and her kids, she takes a waitressing job at a small-town diner, where the kind patrons take steps to lighten her load.", "year": "2011", "rating": "6.5", "price": " $9.99"},
-{"name": "Sonic The Hedgehog 2", "description": "The world\u2019s favorite blue hedgehog is back! Dr. Robotnik returns, this time with help from Knuckles, in search of a powerful emerald. Sonic, along with his new sidekick Tails, embarks on a journey to stop Dr. Robotnik's plans before it's too late.", "year": "2022", "rating": "6.5", "price": " $16.99"},
-{"name": "Cloudy With A Chance Of Meatballs", "description": "Get ready for an exciting serving of endless fun and world-wide food disaster of epic portions for the entire family!", "year": "2009", "rating": "6.9", "price": " $12.99"},
-{"name": "The Lost City", "description": "After being kidnapped by a villainous treasure hunter, a successful romance novelist is forced to team up with her cover model as they are swept into a cutthroat jungle adventure that proves stranger than fiction.", "year": "2022", "rating": "6.1", "price": " $14.99"},
-{"name": "About Fate", "description": "This romantic comedy is a tale of two strangers who believe in love, but seem to never be able to find its true meaning. In a wild twist of events, fate puts each in the other's path one stormy New Year's Eve, and comedy and chaos ensue.", "year": "2022", "rating": "6.3", "price": " $6.99"},
-{"name": "Identity Thief", "description": "HD. Average schnook Jason Bateman undertakes a mission to track down identity thief Melissa McCarthy in this outrageous comedy.", "year": "2013", "rating": "5.7", "price": " $14.99"},
-{"name": "Indiana Jones and the Last Crusade", "description": "After settling down to a quieter life, Indiana Jones is thrust back into action when his father mysteriously disappears while on a quest for the Holy Grail. He sets out to rescue his father and ward off menacing old enemies that surface.", "year": "1989", "rating": "8.2", "price": " $15.99"},
-{"name": "LA LA Land", "description": "Sebastian and Mia are drawn together by their common desire to do what they love. But as success builds, the dreams they worked so hard to maintain threaten to rip them apart.", "year": "2016", "rating": "8.0", "price": " $7.99"},
-{"name": "The Angry Birds Movie (Theatrical)", "description": "In this clever animated comedy, meet Red, Chuck and Bomb, a team of unlikely heroes, and finally learn why the birds are so angry!", "year": "2016", "rating": "6.3", "price": " $14.99"},
-{"name": "Bruce Almighty", "description": "A guy who complains about God too often is given almighty powers to teach him how difficult it is to run the world.", "year": "2003", "rating": "6.8", "price": " $4.99"},
-{"name": "Superbad", "description": "Determined to have sex before leaving for college, two teenagers agree to buy the booze for the coolest party in town, leading to a night they'll never forget.", "year": "2007", "rating": "7.6", "price": " $12.99"},
-{"name": "Bridesmaids Unrated", "description": "From the producer of Knocked Up, Bridesmaids Unrated takes Maid of Dishonor, Annie (Kristen Wiig), and four wild bridesmaids on an outrageous ride to their friend's wedding.", "year": "2011", "rating": "6.8", "price": " $14.99"},
-{"name": "Ticket to Paradise", "description": "George Clooney and Julia Roberts team up as exes who find themselves on a shared mission: to stop their lovestruck daughter from making the same mistake they once made.", "year": "2022", "rating": "6.2", "price": " $19.99"},
-{"name": "Despicable Me", "description": "In a happy suburban neighbourhood sits a black house with a dead lawn! This is the secret hideout of Gru, who plans to TAKE OVER THE WORLD. Armed with his arsenal of rays, guns and battle-ready vehicles, Gru is accustomed to defeating all who stand in his way.", "year": "2010", "rating": "7.6", "price": " $14.99"},
-{"name": "Puss in Boots: The Last Wish", "description": "Everyone's favorite swashbuckling feline returns for a new adventure in the Shrek universe as Puss in Boots goes on a grand quest to find a magical Wishing Star.", "year": "2022", "rating": "7.8", "price": " $29.99"},
-{"name": "Zoolander", "description": "IFC Presents: A model is brainwashed to assassinate a Prime Minister.", "year": "2001", "rating": "6.5", "price": " $14.99"},
-{"name": "Marry Me", "description": "A heartbroken pop star (Jennifer Lopez) spontaneously weds a stranger from the audience (Owen Wilson) while live on stage, but their sham marriage turns into a real romance.", "year": "2022", "rating": "6.1", "price": " $14.99"},
-{"name": "Teenage Mutant Ninja Turtles: Out of the Shadows", "description": "After super villain Shredder escapes custody, he joins forces with two mutant henchmen, Bebop and Rocksteady, to unleash a diabolical plan to take over the world.", "year": "2016", "rating": "5.9", "price": " $14.99"},
-{"name": "Teenage Mutant Ninja Turtles", "description": "When NY City is in trouble, it\u2019s up to the four ninja-fighting, pizza-loving brothers to save it. Aided by determined reporter April O\u2019Neil and their wise master Splinter, these unlikely heroes must face their ultimate nemesis - the evil Shredder.", "year": "2014", "rating": "5.8", "price": " $14.99"},
-{"name": "Identity Thief - Unrated Edition", "description": "HD. An average schnook undertakes a mission to track down an identity thief in the extended version of this outrageous comedy.", "year": "2013", "rating": "5.7", "price": " $14.99"},
-{"name": "Freaky", "description": "HD. A teen magically swaps bodies with a serial killer in this entertaining, genre-bending horror comedy.", "year": "2020", "rating": "6.3", "price": " $14.99"},
-{"name": "Role Models (Unrated)", "description": "Role Models Unrated brings new meaning to juvenile delinquency with footage too outrageous for theaters. Paul Rudd and Seann William Scott star as the world's most unlikely mentors.", "year": "2008", "rating": "6.8", "price": " $14.99"},
-{"name": "Shark Tale", "description": "HD. A young fish's false reputation as a 'shark slayer' earns him fame...and gets him fitted for cement fins in this animated tale.", "year": null, "rating": "6.0", "price": " $14.99"},
-{"name": "Clifford the Big Red Dog", "description": "A young girl's love for a tiny puppy named Clifford, makes the dog grow to an enormous size.", "year": "2021", "rating": "5.9", "price": " $19.99"},
-{"name": "Knives Out", "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate, the inquisitive Detective Benoit Blanc is mysteriously enlisted to investigate.", "year": "2019", "rating": "7.9", "price": " $14.99"},
-{"name": "How to Train Your Dragon", "description": "Hiccup, a young Viking, defies tradition and befriends his deadliest foe- a ferocious dragon he calls Toothless. Together, they fight against the odds to save their worlds in this feel-good hit.", "year": "2010", "rating": "8.1", "price": " $14.99"},
-{"name": "Love and Monsters", "description": "A young man and his traveling companions battle an array of monsters during an epic, 80-mile journey to find the woman he loves.", "year": "2020", "rating": "6.9", "price": " $14.99"},
-{"name": "Despicable Me 2", "description": "Gru, his adorable girls, and the Minions are back in this comedy blockbuster where this super-dad finds himself balancing fatherhood with his secret agent role in the Anti-Villain League.", "year": "2013", "rating": "7.3", "price": " $14.99"},
-{"name": "The Smurfs", "description": "When the evil wizard Gargamel chases the tiny blue Smurfs out of their village, they tumble from their magical world and into ours - in fact, smack dab in the middle of Central Park. Just three apples high and stuck in the Big Apple, the Smurfs must find a way to get back to their village before Gargamel tracks them down.", "year": "2011", "rating": "5.4", "price": " $13.99"},
-{"name": "After The Ball", "description": "After a young fashion designer runs afoul of her corrupt stepmother and stepsisters, she dons a disguise to help save the family business for her father.", "year": "2015", "rating": "5.8", "price": " $14.99"},
-{"name": "Family Camp", "description": "Two polar-opposite families find themselves sharing a cabin for a week away at camp. With the highly coveted camp trophy at stake, dads Tommy and Eddie end up lost in the woods after a comedy of errors and mishaps.", "year": "2022", "rating": "5.0", "price": " $14.99"},
-{"name": "Violent Night", "description": "A team of mercenaries breaks into a mansion on Christmas Eve, but they are not ready for a surprise combatant: Santa Claus (David Harbour). From the producers of John Wick.", "year": "2022", "rating": "6.8", "price": " $24.99"},
-{"name": "Pain & Gain", "description": "When an ambitious group of personal trainers (Mark Wahlberg, Dwayne Johnson and Anthony Mackie) go after the American Dream, they get caught up in a criminal enterprise that goes horribly wrong.", "year": "2013", "rating": "6.4", "price": " $4.99"},
-{"name": "Dolittle", "description": "Robert Downey Jr. electrifies one of literature's most enduring characters in a vivid reimagining of the classic tale of the man who could talk to animals: Dolittle.", "year": "2020", "rating": "5.6", "price": " $14.99"},
-{"name": "Hotel Transylvania", "description": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed.", "year": "2012", "rating": "7.0", "price": " $14.99"},
-{"name": "Zoolander No. 2: The Magnum Edition", "description": "When the world's most beautiful people are in danger, former models Derek and Hansel are recruited for a top secret mission to defeat the criminal mastermind Mugatu. Prepare for a dangerously sexy adventure where looks really can kill.", "year": "2016", "rating": "4.7", "price": " $14.99"},
-{"name": "The Night Before", "description": "Three lifelong friends party in New York on Christmas Eve.", "year": "2015", "rating": "6.4", "price": " $12.99"},
-{"name": "The Addams Family 2", "description": "Everyone's favorite spooky family is back! Morticia and Gomez are distraught that their children are growing up. To reclaim their bond they decide to cram everyone into their haunted camper and hit the road for one last miserable family vacation.", "year": "2021", "rating": "5.4", "price": " $19.99"},
-{"name": "The Wolf of Wall Street", "description": "Leonardo DiCaprio delivers \"the best performance of his career\" as a young stockbroker hungry for a life of non-stop thrills, where corruption was king and more was never enough.", "year": "2013", "rating": "8.2", "price": " $16.99"}
+    {
+        "title": "Honk for Jesus. Save Your Soul.",
+        "summary": "Following a scandal, a megachurch pastor and proud first lady must rebuild their congregation to make the biggest comeback that commodified religion has ever seen.",
+        "runtime": "1 h 43 min",
+        "release_year": "2022",
+        "rating": "5.4",
+        "buy_price": " $19.99"
+    },
+    {
+        "title": "The Croods",
+        "summary": "Join the Croods on the journey of a lifetime in the epic comedy-adventure that \u201chas the magical wonder of How To Train Your Dragon\u201d \u2014 Jake Hamilton (Fox-TV). When their cave is destroyed, the Croods set out to explore a spectacular landscape filled with fantastic creatures, strange surprises, and a whole new world of adventure!",
+        "runtime": "1 h 38 min",
+        "release_year": "2013",
+        "rating": "7.2",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "The Devil Wears Prada",
+        "summary": "A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine.",
+        "runtime": "1 h 49 min",
+        "release_year": "2006",
+        "rating": "6.9",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Dog",
+        "summary": "In this road-trip comedy, two hard-charging former Army Rangers paired against their will - Briggs and a Belgian Malinois named Lulu - race down the Pacific Coast in hopes of making it to a fellow soldier's funeral on time.",
+        "runtime": "1 h 41 min",
+        "release_year": "2022",
+        "rating": "6.5",
+        "buy_price": " $19.99"
+    },
+    {
+        "title": "A Christmas Wish",
+        "summary": "A down-on-her-luck mom (Kristy Swanson) finds herself penniless and homeless just before Christmas when her husband leaves her. To support herself and her kids, she takes a waitressing job at a small-town diner, where the kind patrons take steps to lighten her load.",
+        "runtime": "1 h 36 min",
+        "release_year": "2011",
+        "rating": "6.5",
+        "buy_price": " $9.99"
+    },
+    {
+        "title": "Sonic The Hedgehog 2",
+        "summary": "The world\u2019s favorite blue hedgehog is back! Dr. Robotnik returns, this time with help from Knuckles, in search of a powerful emerald. Sonic, along with his new sidekick Tails, embarks on a journey to stop Dr. Robotnik's plans before it's too late.",
+        "runtime": "2 h 2 min",
+        "release_year": "2022",
+        "rating": "6.5",
+        "buy_price": " $16.99"
+    },
+    {
+        "title": "Cloudy With A Chance Of Meatballs",
+        "summary": "Get ready for an exciting serving of endless fun and world-wide food disaster of epic portions for the entire family!",
+        "runtime": "1 h 29 min",
+        "release_year": "2009",
+        "rating": "6.9",
+        "buy_price": " $12.99"
+    },
+    {
+        "title": "The Lost City",
+        "summary": "After being kidnapped by a villainous treasure hunter, a successful romance novelist is forced to team up with her cover model as they are swept into a cutthroat jungle adventure that proves stranger than fiction.",
+        "runtime": "1 h 51 min",
+        "release_year": "2022",
+        "rating": "6.1",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "About Fate",
+        "summary": "This romantic comedy is a tale of two strangers who believe in love, but seem to never be able to find its true meaning. In a wild twist of events, fate puts each in the other's path one stormy New Year's Eve, and comedy and chaos ensue.",
+        "runtime": "1 h 39 min",
+        "release_year": "2022",
+        "rating": "6.3",
+        "buy_price": " $6.99"
+    },
+    {
+        "title": "Identity Thief",
+        "summary": "HD. Average schnook Jason Bateman undertakes a mission to track down identity thief Melissa McCarthy in this outrageous comedy.",
+        "runtime": "1 h 51 min",
+        "release_year": "2013",
+        "rating": "5.7",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Indiana Jones and the Last Crusade",
+        "summary": "After settling down to a quieter life, Indiana Jones is thrust back into action when his father mysteriously disappears while on a quest for the Holy Grail. He sets out to rescue his father and ward off menacing old enemies that surface.",
+        "runtime": "2 h 6 min",
+        "release_year": "1989",
+        "rating": "8.2",
+        "buy_price": " $15.99"
+    },
+    {
+        "title": "LA LA Land",
+        "summary": "Sebastian and Mia are drawn together by their common desire to do what they love. But as success builds, the dreams they worked so hard to maintain threaten to rip them apart.",
+        "runtime": "2 h 7 min",
+        "release_year": "2016",
+        "rating": "8.0",
+        "buy_price": " $7.99"
+    },
+    {
+        "title": "The Angry Birds Movie (Theatrical)",
+        "summary": "In this clever animated comedy, meet Red, Chuck and Bomb, a team of unlikely heroes, and finally learn why the birds are so angry!",
+        "runtime": "1 h 37 min",
+        "release_year": "2016",
+        "rating": "6.3",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Bruce Almighty",
+        "summary": "A guy who complains about God too often is given almighty powers to teach him how difficult it is to run the world.",
+        "runtime": "1 h 41 min",
+        "release_year": "2003",
+        "rating": "6.8",
+        "buy_price": " $4.99"
+    },
+    {
+        "title": "Superbad",
+        "summary": "Determined to have sex before leaving for college, two teenagers agree to buy the booze for the coolest party in town, leading to a night they'll never forget.",
+        "runtime": "1 h 53 min",
+        "release_year": "2007",
+        "rating": "7.6",
+        "buy_price": " $12.99"
+    },
+    {
+        "title": "Bridesmaids Unrated",
+        "summary": "From the producer of Knocked Up, Bridesmaids Unrated takes Maid of Dishonor, Annie (Kristen Wiig), and four wild bridesmaids on an outrageous ride to their friend's wedding.",
+        "runtime": "2 h 10 min",
+        "release_year": "2011",
+        "rating": "6.8",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Ticket to Paradise",
+        "summary": "George Clooney and Julia Roberts team up as exes who find themselves on a shared mission: to stop their lovestruck daughter from making the same mistake they once made.",
+        "runtime": "1 h 43 min",
+        "release_year": "2022",
+        "rating": "6.2",
+        "buy_price": " $19.99"
+    },
+    {
+        "title": "Despicable Me",
+        "summary": "In a happy suburban neighbourhood sits a black house with a dead lawn! This is the secret hideout of Gru, who plans to TAKE OVER THE WORLD. Armed with his arsenal of rays, guns and battle-ready vehicles, Gru is accustomed to defeating all who stand in his way.",
+        "runtime": "1 h 35 min",
+        "release_year": "2010",
+        "rating": "7.6",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Puss in Boots: The Last Wish",
+        "summary": "Everyone's favorite swashbuckling feline returns for a new adventure in the Shrek universe as Puss in Boots goes on a grand quest to find a magical Wishing Star.",
+        "runtime": "1 h 42 min",
+        "release_year": "2022",
+        "rating": "7.8",
+        "buy_price": " $29.99"
+    },
+    {
+        "title": "Zoolander",
+        "summary": "IFC Presents: A model is brainwashed to assassinate a Prime Minister.",
+        "runtime": "1 h 29 min",
+        "release_year": "2001",
+        "rating": "6.5",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Marry Me",
+        "summary": "A heartbroken pop star (Jennifer Lopez) spontaneously weds a stranger from the audience (Owen Wilson) while live on stage, but their sham marriage turns into a real romance.",
+        "runtime": "1 h 52 min",
+        "release_year": "2022",
+        "rating": "6.1",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+        "summary": "After super villain Shredder escapes custody, he joins forces with two mutant henchmen, Bebop and Rocksteady, to unleash a diabolical plan to take over the world.",
+        "runtime": "1 h 52 min",
+        "release_year": "2016",
+        "rating": "5.9",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Teenage Mutant Ninja Turtles",
+        "summary": "When NY City is in trouble, it\u2019s up to the four ninja-fighting, pizza-loving brothers to save it. Aided by determined reporter April O\u2019Neil and their wise master Splinter, these unlikely heroes must face their ultimate nemesis - the evil Shredder.",
+        "runtime": "1 h 41 min",
+        "release_year": "2014",
+        "rating": "5.8",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Identity Thief - Unrated Edition",
+        "summary": "HD. An average schnook undertakes a mission to track down an identity thief in the extended version of this outrageous comedy.",
+        "runtime": "2h",
+        "release_year": "2013",
+        "rating": "5.7",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Freaky",
+        "summary": "HD. A teen magically swaps bodies with a serial killer in this entertaining, genre-bending horror comedy.",
+        "runtime": "1 h 42 min",
+        "release_year": "2020",
+        "rating": "6.3",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Role Models (Unrated)",
+        "summary": "Role Models Unrated brings new meaning to juvenile delinquency with footage too outrageous for theaters. Paul Rudd and Seann William Scott star as the world's most unlikely mentors.",
+        "runtime": "1 h 41 min",
+        "release_year": "2008",
+        "rating": "6.8",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Shark Tale",
+        "summary": "HD. A young fish's false reputation as a 'shark slayer' earns him fame...and gets him fitted for cement fins in this animated tale.",
+        "runtime": "2004",
+        "release_year": null,
+        "rating": "6.0",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Clifford the Big Red Dog",
+        "summary": "A young girl's love for a tiny puppy named Clifford, makes the dog grow to an enormous size.",
+        "runtime": "1 h 36 min",
+        "release_year": "2021",
+        "rating": "5.9",
+        "buy_price": " $19.99"
+    },
+    {
+        "title": "Knives Out",
+        "summary": "When renowned crime novelist Harlan Thrombey is found dead at his estate, the inquisitive Detective Benoit Blanc is mysteriously enlisted to investigate.",
+        "runtime": "2 h 10 min",
+        "release_year": "2019",
+        "rating": "7.9",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "How to Train Your Dragon",
+        "summary": "Hiccup, a young Viking, defies tradition and befriends his deadliest foe- a ferocious dragon he calls Toothless. Together, they fight against the odds to save their worlds in this feel-good hit.",
+        "runtime": "1 h 37 min",
+        "release_year": "2010",
+        "rating": "8.1",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Love and Monsters",
+        "summary": "A young man and his traveling companions battle an array of monsters during an epic, 80-mile journey to find the woman he loves.",
+        "runtime": "1 h 48 min",
+        "release_year": "2020",
+        "rating": "6.9",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Despicable Me 2",
+        "summary": "Gru, his adorable girls, and the Minions are back in this comedy blockbuster where this super-dad finds himself balancing fatherhood with his secret agent role in the Anti-Villain League.",
+        "runtime": "1 h 38 min",
+        "release_year": "2013",
+        "rating": "7.3",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "The Smurfs",
+        "summary": "When the evil wizard Gargamel chases the tiny blue Smurfs out of their village, they tumble from their magical world and into ours - in fact, smack dab in the middle of Central Park. Just three apples high and stuck in the Big Apple, the Smurfs must find a way to get back to their village before Gargamel tracks them down.",
+        "runtime": "1 h 42 min",
+        "release_year": "2011",
+        "rating": "5.4",
+        "buy_price": " $13.99"
+    },
+    {
+        "title": "After The Ball",
+        "summary": "After a young fashion designer runs afoul of her corrupt stepmother and stepsisters, she dons a disguise to help save the family business for her father.",
+        "runtime": "1 h 41 min",
+        "release_year": "2015",
+        "rating": "5.8",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Family Camp",
+        "summary": "Two polar-opposite families find themselves sharing a cabin for a week away at camp. With the highly coveted camp trophy at stake, dads Tommy and Eddie end up lost in the woods after a comedy of errors and mishaps.",
+        "runtime": "1 h 51 min",
+        "release_year": "2022",
+        "rating": "5.0",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Violent Night",
+        "summary": "A team of mercenaries breaks into a mansion on Christmas Eve, but they are not ready for a surprise combatant: Santa Claus (David Harbour). From the producers of John Wick.",
+        "runtime": "1 h 51 min",
+        "release_year": "2022",
+        "rating": "6.8",
+        "buy_price": " $24.99"
+    },
+    {
+        "title": "Pain & Gain",
+        "summary": "When an ambitious group of personal trainers (Mark Wahlberg, Dwayne Johnson and Anthony Mackie) go after the American Dream, they get caught up in a criminal enterprise that goes horribly wrong.",
+        "runtime": "2 h 9 min",
+        "release_year": "2013",
+        "rating": "6.4",
+        "buy_price": " $4.99"
+    },
+    {
+        "title": "Dolittle",
+        "summary": "Robert Downey Jr. electrifies one of literature's most enduring characters in a vivid reimagining of the classic tale of the man who could talk to animals: Dolittle.",
+        "runtime": "1 h 41 min",
+        "release_year": "2020",
+        "rating": "5.6",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Hotel Transylvania",
+        "summary": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed.",
+        "runtime": "1 h 31 min",
+        "release_year": "2012",
+        "rating": "7.0",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "Zoolander No. 2: The Magnum Edition",
+        "summary": "When the world's most beautiful people are in danger, former models Derek and Hansel are recruited for a top secret mission to defeat the criminal mastermind Mugatu. Prepare for a dangerously sexy adventure where looks really can kill.",
+        "runtime": "1 h 41 min",
+        "release_year": "2016",
+        "rating": "4.7",
+        "buy_price": " $14.99"
+    },
+    {
+        "title": "The Night Before",
+        "summary": "Three lifelong friends party in New York on Christmas Eve.",
+        "runtime": "1 h 41 min",
+        "release_year": "2015",
+        "rating": "6.4",
+        "buy_price": " $12.99"
+    },
+    {
+        "title": "The Addams Family 2",
+        "summary": "Everyone's favorite spooky family is back! Morticia and Gomez are distraught that their children are growing up. To reclaim their bond they decide to cram everyone into their haunted camper and hit the road for one last miserable family vacation.",
+        "runtime": "1 h 32 min",
+        "release_year": "2021",
+        "rating": "5.4",
+        "buy_price": " $19.99"
+    },
+    {
+        "title": "The Wolf of Wall Street",
+        "summary": "Leonardo DiCaprio delivers \"the best performance of his career\" as a young stockbroker hungry for a life of non-stop thrills, where corruption was king and more was never enough.",
+        "runtime": "2 h 59 min",
+        "release_year": "2013",
+        "rating": "8.2",
+        "buy_price": " $16.99"
+    }
 ]

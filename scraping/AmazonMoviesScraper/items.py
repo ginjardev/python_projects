@@ -8,8 +8,9 @@ import scrapy
 
 class AmazonMovieDetail(scrapy.Item):
     # define the fields for your item here like:
-    name = scrapy.Field()
-    description = scrapy.Field()
-    year = scrapy.Field()
+    title = scrapy.Field()
+    summary = scrapy.Field()
+    runtime = scrapy.Field()
+    release_year = scrapy.Field()
     rating = scrapy.Field()
-    price = scrapy.Field()
+    buy_price = scrapy.Field()

@@ -13,14 +13,14 @@ SPIDER_MODULES = ['AmazonMoviesScraper.spiders']
 NEWSPIDER_MODULE = 'AmazonMoviesScraper.spiders'
 
 DOWNLOAD_TIMEOUT = 540
-DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 5
 DEPTH_LIMIT = 3
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'AmazonMoviesScraper (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
