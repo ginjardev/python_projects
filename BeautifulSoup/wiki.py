@@ -6,6 +6,8 @@ url = "https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_Unite
 response = requests.get(url).text
 
 doc = BeautifulSoup(response, "html.parser")
+link = doc.find('a')
+print(link['href'])
 
 my_table = doc.find("table", class_="wikitable sortable plainrowheaders")
 
@@ -49,5 +51,5 @@ df = pd.DataFrame()
 df['state'] = states
 df['population'] = final_pop
 
-df.to_csv('us_state_pop.csv')
-print(df)
+# df.to_csv('us_state_pop.csv')
+# print(df)

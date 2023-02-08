@@ -1,0 +1,758 @@
+[
+  {
+    "s/n": 1,
+    "title": "Encore in Death: An Eve Dallas Novel",
+    "rating": "4.8",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51e8oWDDdIL._SY300_.jpg"
+  },
+  {
+    "s/n": 2,
+    "title": "The Perfect Marriage: A Completely Gripping Psychological Suspense",
+    "rating": "4.3",
+    "price": "$8.99",
+    "image URL": "https://m.media-amazon.com/images/I/41I9KUSndiL._SY300_.jpg"
+  },
+  {
+    "s/n": 3,
+    "title": "The Temporary Wife: Luca and Valentina&#39;s Story (The Windsors)",
+    "rating": "4.6",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/51c+agz4EPL._SY300_.jpg"
+  },
+  {
+    "s/n": 4,
+    "title": "Meant to Be: A Novel",
+    "rating": "4.3",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/41TD+QjTQhL._SY300_.jpg"
+  },
+  {
+    "s/n": 5,
+    "title": "The Maid&#39;s Diary: A Novel",
+    "rating": "4.6",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/41Kra902WXL._SY300_.jpg"
+  },
+  {
+    "s/n": 6,
+    "title": "If You Tell: A True Story of Murder, Family Secrets, and the Unbreakable Bond of Sisterhood",
+    "rating": "4.3",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/41nIJTI4vXL._SY300_.jpg"
+  },
+  {
+    "s/n": 7,
+    "title": "Final Offer (Dreamland Billionaires Book 3)",
+    "rating": "4.6",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51odUtvbJgL._SY300_.jpg"
+  },
+  {
+    "s/n": 8,
+    "title": "The Housemaid: An absolutely addictive psychological thriller with a jaw-dropping twist",
+    "rating": "4.5",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/511ylCS8sAL._SY300_.jpg"
+  },
+  {
+    "s/n": 9,
+    "title": "Never Marry Your Brother&#39;s Best Friend (Never Say Never Book 1)",
+    "rating": "4.3",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/51JyLahWr8L._SY300_.jpg"
+  },
+  {
+    "s/n": 10,
+    "title": "The Right Move (Windy City Series Book 2)",
+    "rating": "5.0",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/51y+S8Ke0UL._SY300_.jpg"
+  },
+  {
+    "s/n": 11,
+    "title": "Things We Never Got Over (Knockemout Book 1)",
+    "rating": "4.5",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/41qiZpKBDvL._SY300_.jpg"
+  },
+  {
+    "s/n": 12,
+    "title": "Beyond the Moonlit Sea: A Novel",
+    "rating": "4.3",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/416UzC+yykL._SY300_.jpg"
+  },
+  {
+    "s/n": 13,
+    "title": "Lessons in Chemistry: A Novel",
+    "rating": "4.6",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/413bIQtFVFL._SY300_.jpg"
+  },
+  {
+    "s/n": 14,
+    "title": "Black Ties and White Lies: A Billionaire Fake Fiance Romance",
+    "rating": "4.5",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/41HCkEAVyUL._SY300_.jpg"
+  },
+  {
+    "s/n": 15,
+    "title": "A Long Time Coming",
+    "rating": "4.6",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/516apTDINcL._SY300_.jpg"
+  },
+  {
+    "s/n": 16,
+    "title": "The House at the End of the World",
+    "rating": "4.5",
+    "price": "$9.99",
+    "image URL": "https://m.media-amazon.com/images/I/51rvfEAyQwL._SY300_.jpg"
+  },
+  {
+    "s/n": 17,
+    "title": "Twisted (Never After Series)",
+    "rating": "4.6",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51MIrSOMMwL._SY300_.jpg"
+  },
+  {
+    "s/n": 18,
+    "title": "Reminders of Him: A Novel",
+    "rating": "4.7",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/41EiBLxybSL._SY300_.jpg"
+  },
+  {
+    "s/n": 19,
+    "title": "Good for You: A Novel",
+    "rating": "4.3",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/41ExV+Th8oL._SY300_.jpg"
+  },
+  {
+    "s/n": 20,
+    "title": "The Bookstore Sisters: A Short Story",
+    "rating": "4.3",
+    "price": "$0.99",
+    "image URL": "https://m.media-amazon.com/images/I/51PknZepClL._SY300_.jpg"
+  },
+  {
+    "s/n": 21,
+    "title": "Dirty Truths (Boys of Bellerose Book 2)",
+    "rating": "4.9",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/51evEL9sZfL._SY300_.jpg"
+  },
+  {
+    "s/n": 22,
+    "title": "The Fine Print (Dreamland Billionaires Book 1)",
+    "rating": "4.3",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51JhFKRg1VL._SY300_.jpg"
+  },
+  {
+    "s/n": 23,
+    "title": "The Running Girls",
+    "rating": "4.1",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/41zJhqso-XL._SY300_.jpg"
+  },
+  {
+    "s/n": 24,
+    "title": "It Ends with Us: A Novel",
+    "rating": "4.7",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51Zu0ZwT0jL._SY300_.jpg"
+  },
+  {
+    "s/n": 25,
+    "title": "Layla",
+    "rating": "4.2",
+    "price": "$2.99",
+    "image URL": "https://m.media-amazon.com/images/I/51wssaiGMIL._SY300_.jpg"
+  },
+  {
+    "s/n": 26,
+    "title": "Zodiac Aligned (Zodiac Wolves Book 4)",
+    "rating": "4.6",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51f+3+y7X5L._SY300_.jpg"
+  },
+  {
+    "s/n": 27,
+    "title": "The Chemistry of Love",
+    "rating": "4.3",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/5133WZP3BZL._SY300_.jpg"
+  },
+  {
+    "s/n": 28,
+    "title": "Freaky Crush (A Mystic Caravan Mystery Book 15)",
+    "rating": "4.4",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/519ZVdGqiiL._SY300_.jpg"
+  },
+  {
+    "s/n": 29,
+    "title": "It Starts with Us: A Novel (It Ends with Us Book 2)",
+    "rating": "4.5",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51VC+Vru96L._SY300_.jpg"
+  },
+  {
+    "s/n": 30,
+    "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life (Mark Manson Collection Book 1)",
+    "rating": "4.6",
+    "price": "$9.50",
+    "image URL": "https://m.media-amazon.com/images/I/51mN3bY0JjL._SY300_.jpg"
+  },
+  {
+    "s/n": 31,
+    "title": "Unnatural History: An Alex Delaware Novel",
+    "rating": "4.4",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51mSG-GyYoL._SY300_.jpg"
+  },
+  {
+    "s/n": 32,
+    "title": "Wild, Beautiful, and Free: A Novel",
+    "rating": "4.5",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/512sXyWP1nL._SY300_.jpg"
+  },
+  {
+    "s/n": 33,
+    "title": "Regretting You",
+    "rating": "4.5",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/51qFqP094-L._SY300_.jpg"
+  },
+  {
+    "s/n": 34,
+    "title": "Control Me",
+    "rating": "4.7",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/415RDe6Jx5L._SY300_.jpg"
+  },
+  {
+    "s/n": 35,
+    "title": "The Auction: A Dark Romance (Club Indulgence Duet Book 1)",
+    "rating": "4.6",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/516GVm35-rL._SY300_.jpg"
+  },
+  {
+    "s/n": 36,
+    "title": "Rock Paper Scissors: A Novel",
+    "rating": "4.2",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51019UkA0mL._SY300_.jpg"
+  },
+  {
+    "s/n": 37,
+    "title": "Do Not Disturb: An addictive psychological thriller",
+    "rating": "4.3",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/513EebMTWeL._SY300_.jpg"
+  },
+  {
+    "s/n": 38,
+    "title": "Ignite: A Grumpy Single Dad Romance (Cloverleigh Farms Next Generation Book 1)",
+    "rating": "4.5",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/41oOcsbnjXL._SY300_.jpg"
+  },
+  {
+    "s/n": 39,
+    "title": "Never Lie: An addictive psychological thriller",
+    "rating": "4.4",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/41Qx7PCs-ZL._SY300_.jpg"
+  },
+  {
+    "s/n": 40,
+    "title": "Spare",
+    "rating": "4.6",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/412UEe3hvcL._SY300_.jpg"
+  },
+  {
+    "s/n": 41,
+    "title": "The Wrong Bride: Ares and Raven&#39;s Story (The Windsors)",
+    "rating": "4.4",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/51W732bcigL._SY300_.jpg"
+  },
+  {
+    "s/n": 42,
+    "title": "Someone Else&#39;s Shoes: A Novel",
+    "rating": "4.5",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51LhdVSHRbL._SY300_.jpg"
+  },
+  {
+    "s/n": 43,
+    "title": "Thorne Princess: An Enemies-to-Lovers Bodyguard Romance",
+    "rating": "4.4",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51WXjStv9OL._SY300_.jpg"
+  },
+  {
+    "s/n": 44,
+    "title": "The Quarry Girls: A Thriller",
+    "rating": "4.3",
+    "price": "$2.49",
+    "image URL": "https://m.media-amazon.com/images/I/51z7p2WyBOL._SY300_.jpg"
+  },
+  {
+    "s/n": 45,
+    "title": "Jasper Vale (The Edens)",
+    "rating": "4.6",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/512Fdj8iBGL._SY300_.jpg"
+  },
+  {
+    "s/n": 46,
+    "title": "The Olive Grove: Escape to idyllic Croatia with this emotional and gripping novel the perfect summer read",
+    "rating": "4.3",
+    "price": "$0.99",
+    "image URL": "https://m.media-amazon.com/images/I/41+PL+QN3mL._SY300_.jpg"
+  },
+  {
+    "s/n": 47,
+    "title": "The Locked Door: A gripping psychological thriller with a jaw-dropping twist",
+    "rating": "4.4",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/41OfSb7-3oL._SY300_.jpg"
+  },
+  {
+    "s/n": 48,
+    "title": "A Not So Meet Cute",
+    "rating": "4.4",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/41kixtKEM2L._SY300_.jpg"
+  },
+  {
+    "s/n": 49,
+    "title": "Two Little Girls in Blue: A Novel",
+    "rating": "4.5",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51d61Olq6SL._SY300_.jpg"
+  },
+  {
+    "s/n": 50,
+    "title": "The Path of Ascension 2: A LitRPG Adventure",
+    "rating": "4.9",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/51yxzYOlOEL._SY300_.jpg"
+  },
+  {
+    "s/n": 51,
+    "title": "Demon Copperhead: A Novel",
+    "rating": "4.6",
+    "price": "$15.99",
+    "image URL": "https://m.media-amazon.com/images/I/51tuSHomOqL._SY300_.jpg"
+  },
+  {
+    "s/n": 52,
+    "title": "Haunting Adeline (Cat and Mouse Duet Book 1)",
+    "rating": "4.4",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51dLVZWCcYL._SY300_.jpg"
+  },
+  {
+    "s/n": 53,
+    "title": "Terms and Conditions (Dreamland Billionaires Book 2)",
+    "rating": "4.5",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51WYH5fzEdL._SY300_.jpg"
+  },
+  {
+    "s/n": 54,
+    "title": "Tomorrow, and Tomorrow, and Tomorrow: A novel",
+    "rating": "4.4",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/61RFu7F6K6L._SY300_.jpg"
+  },
+  {
+    "s/n": 55,
+    "title": "Mothered: A Novel",
+    "rating": "3.7",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/41ua3xnvI8L._SY300_.jpg"
+  },
+  {
+    "s/n": 56,
+    "title": "The Invisible Life of Addie LaRue",
+    "rating": "4.5",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51FVPBt51ZL._SY300_.jpg"
+  },
+  {
+    "s/n": 57,
+    "title": "Lie to Her (Bree Taggert Book 6)",
+    "rating": "4.6",
+    "price": "$6.99",
+    "image URL": "https://m.media-amazon.com/images/I/51Y7eMy2B+L._SY300_.jpg"
+  },
+  {
+    "s/n": 58,
+    "title": "Harry Potter and the Sorcerer&#39;s Stone",
+    "rating": "4.8",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51Ppi-8kISL._SY300_.jpg"
+  },
+  {
+    "s/n": 59,
+    "title": "Fire",
+    "rating": "4.4",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/41etPGdC++L._SY300_.jpg"
+  },
+  {
+    "s/n": 60,
+    "title": "Twisted Love: A Brother&#39;s Best Friend Romance",
+    "rating": "4.2",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/41MYo2iFlQS._SY300_.jpg"
+  },
+  {
+    "s/n": 61,
+    "title": "Secretly Yours: A Novel (Vine Mess Book 1)",
+    "rating": "3.9",
+    "price": "$10.99",
+    "image URL": "https://m.media-amazon.com/images/I/41dmhmS6kjL._SY300_.jpg"
+  },
+  {
+    "s/n": 62,
+    "title": "King of Wrath : An Arranged Marriage Romance (Kings of Sin)",
+    "rating": "4.4",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/515mo+3sVDL._SY300_.jpg"
+  },
+  {
+    "s/n": 63,
+    "title": "The Alpha Female Wolf: The Fierce Legacy of Yellowstone&#39;s 06 (The Alpha Wolves of Yellowstone)",
+    "rating": "4.8",
+    "price": "$0.99",
+    "image URL": "https://m.media-amazon.com/images/I/51DAmWOOqmL._SY300_.jpg"
+  },
+  {
+    "s/n": 64,
+    "title": "If He Had Been with Me",
+    "rating": "4.3",
+    "price": "$7.42",
+    "image URL": "https://m.media-amazon.com/images/I/41ErvmsoslL._SY300_.jpg"
+  },
+  {
+    "s/n": 65,
+    "title": "Twenty Years Later: A Riveting New Thriller",
+    "rating": "4.5",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51Imeo-9QsL._SY300_.jpg"
+  },
+  {
+    "s/n": 66,
+    "title": "Ruthless Creatures (Queens &amp; Monsters Book 1)",
+    "rating": "4.5",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/41of41aIFLL._SY300_.jpg"
+  },
+  {
+    "s/n": 67,
+    "title": "Consider Me (Playing For Keeps Book 1)",
+    "rating": "4.4",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/414NKuH0oBL._SY300_.jpg"
+  },
+  {
+    "s/n": 68,
+    "title": "So Not Meant To Be",
+    "rating": "4.3",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51c+K1kB-ZL._SY300_.jpg"
+  },
+  {
+    "s/n": 69,
+    "title": "Night Angels: A Novel",
+    "rating": "4.4",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51U8tWTcPZL._SY300_.jpg"
+  },
+  {
+    "s/n": 70,
+    "title": "Forever Never",
+    "rating": "4.3",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/51ZBJuoVXUL._SY300_.jpg"
+  },
+  {
+    "s/n": 71,
+    "title": "The Direction of the Wind: A Novel",
+    "rating": "4.3",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51sPnptAUoL._SY300_.jpg"
+  },
+  {
+    "s/n": 72,
+    "title": "The Witch of Tin Mountain",
+    "rating": "4.2",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/41yY-DIavhL._SY300_.jpg"
+  },
+  {
+    "s/n": 73,
+    "title": "West with Giraffes: A Novel",
+    "rating": "4.7",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51fJOtyThfL._SY300_.jpg"
+  },
+  {
+    "s/n": 74,
+    "title": "Secret Babies for the Mafia Doctor (Doctors of Denver)",
+    "rating": "4.4",
+    "price": "$2.99",
+    "image URL": "https://m.media-amazon.com/images/I/41G7BauCHFL._SY300_.jpg"
+  },
+  {
+    "s/n": 75,
+    "title": "Sapphire Scars (Uvarov Bratva Book 1)",
+    "rating": "4.4",
+    "price": "$2.99",
+    "image URL": "https://m.media-amazon.com/images/I/5173qOswWtL._SY300_.jpg"
+  },
+  {
+    "s/n": 76,
+    "title": "Someone Else&#39;s Life: A Thriller",
+    "rating": "3.6",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/41l5JEW1HJL._SY300_.jpg"
+  },
+  {
+    "s/n": 77,
+    "title": "A Thousand Boy Kisses",
+    "rating": "4.6",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51yZQoybCsL._SY300_.jpg"
+  },
+  {
+    "s/n": 78,
+    "title": "People vs. Donald Trump: An Inside Account",
+    "rating": null,
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/41DgXVLjUyL._SY300_.jpg"
+  },
+  {
+    "s/n": 79,
+    "title": "Cookies For My Orc Neighbor",
+    "rating": "4.5",
+    "price": "$2.99",
+    "image URL": "https://m.media-amazon.com/images/I/51+wyaG3EgL._SY300_.jpg"
+  },
+  {
+    "s/n": 80,
+    "title": "Verity",
+    "rating": "4.6",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/41vCcWA-jOL._SY300_.jpg"
+  },
+  {
+    "s/n": 81,
+    "title": "Song of Darkness (Backyard Starship Book 12)",
+    "rating": "4.6",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/4165GS5-KkL._SY300_.jpg"
+  },
+  {
+    "s/n": 82,
+    "title": "One Bossy Date: An Enemies to Lovers Romance",
+    "rating": "4.4",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/51EMtiLAaeL._SY300_.jpg"
+  },
+  {
+    "s/n": 83,
+    "title": "The Sentence",
+    "rating": "4.3",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/519jGfSJc8S._SY300_.jpg"
+  },
+  {
+    "s/n": 84,
+    "title": "The Inmate: A gripping psychological thriller",
+    "rating": "4.4",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/41eKMOBhnnL._SY300_.jpg"
+  },
+  {
+    "s/n": 85,
+    "title": "The Girl Who Survived: A Riveting Novel of Suspense with a Shocking Twist",
+    "rating": "4.3",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/513BhXhRvcL._SY300_.jpg"
+  },
+  {
+    "s/n": 86,
+    "title": "Mad Honey: A Novel",
+    "rating": "4.4",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51hifW2V8WL._SY300_.jpg"
+  },
+  {
+    "s/n": 87,
+    "title": "By a Thread: A Grumpy Boss Romantic Comedy",
+    "rating": "4.5",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/41ZMi59KY2L._SY300_.jpg"
+  },
+  {
+    "s/n": 88,
+    "title": "One By One: An unputdownable psychological thriller",
+    "rating": "4.3",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/51Rd-hYXOFL._SY300_.jpg"
+  },
+  {
+    "s/n": 89,
+    "title": "They Turned the World Upside Down: A Storyteller\u2019s Journey with Those Who Dared to Follow Jesus",
+    "rating": "4.7",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/41cp10rwNxL._SY300_.jpg"
+  },
+  {
+    "s/n": 90,
+    "title": "The Wife Who Risked Everything: Based on a true story, a totally heartbreaking, epic and gripping World War 2 page-turner",
+    "rating": "4.3",
+    "price": "$3.99",
+    "image URL": "https://m.media-amazon.com/images/I/51ae+sLBeUL._SY300_.jpg"
+  },
+  {
+    "s/n": 91,
+    "title": "Finding Moon: Novel, A",
+    "rating": "4.5",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/51uu9DRLVPL._SY300_.jpg"
+  },
+  {
+    "s/n": 92,
+    "title": "Brutal Prince: An Enemies To Lovers Mafia Romance (Brutal Birthright Book 1)",
+    "rating": "4.3",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51CcSwQD4RL._SY300_.jpg"
+  },
+  {
+    "s/n": 93,
+    "title": "A Court of Thorns and Roses",
+    "rating": "4.7",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51RlqfADKXL._SY300_.jpg"
+  },
+  {
+    "s/n": 94,
+    "title": "Movie Star: They Always Say They&#39;re Single",
+    "rating": "3.1",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/51Szq8fzuyL._SY300_.jpg"
+  },
+  {
+    "s/n": 95,
+    "title": "Half Way Home",
+    "rating": "4.1",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/51A0DCfIM-L._SY300_.jpg"
+  },
+  {
+    "s/n": 96,
+    "title": "Say You Swear",
+    "rating": "4.7",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/51n3rCadMCL._SY300_.jpg"
+  },
+  {
+    "s/n": 97,
+    "title": "The Unkindness of Ravens: A Greer Hogan Mystery",
+    "rating": "4.1",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/51+hFtgDdOL._SY300_.jpg"
+  },
+  {
+    "s/n": 98,
+    "title": "The Family Secret: An utterly gripping domestic thriller with a mind-blowing twist",
+    "rating": "4.3",
+    "price": "$6.99",
+    "image URL": "https://m.media-amazon.com/images/I/51J5WzvMwpL._SY300_.jpg"
+  },
+  {
+    "s/n": 99,
+    "title": "Finding Ashlyn (SEAL Team Hawaii Book 6)",
+    "rating": "3.0",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/41CpSmes8yL._SY300_.jpg"
+  },
+  {
+    "s/n": 100,
+    "title": "Finding Moon: Novel, A",
+    "rating": "4.5",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/51uu9DRLVPL._SY300_.jpg"
+  },
+  {
+    "s/n": 101,
+    "title": "Brutal Prince: An Enemies To Lovers Mafia Romance (Brutal Birthright Book 1)",
+    "rating": "4.3",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/51CcSwQD4RL._SY300_.jpg"
+  },
+  {
+    "s/n": 102,
+    "title": "A Court of Thorns and Roses",
+    "rating": "4.7",
+    "price": "\n",
+    "image URL": "https://m.media-amazon.com/images/I/51RlqfADKXL._SY300_.jpg"
+  },
+  {
+    "s/n": 103,
+    "title": "Movie Star: They Always Say They&#39;re Single",
+    "rating": "3.1",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/51Szq8fzuyL._SY300_.jpg"
+  },
+  {
+    "s/n": 104,
+    "title": "Half Way Home",
+    "rating": "4.1",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/51A0DCfIM-L._SY300_.jpg"
+  },
+  {
+    "s/n": 105,
+    "title": "Say You Swear",
+    "rating": "4.7",
+    "price": "$5.99",
+    "image URL": "https://m.media-amazon.com/images/I/51n3rCadMCL._SY300_.jpg"
+  },
+  {
+    "s/n": 106,
+    "title": "The Unkindness of Ravens: A Greer Hogan Mystery",
+    "rating": "4.1",
+    "price": "$1.99",
+    "image URL": "https://m.media-amazon.com/images/I/51+hFtgDdOL._SY300_.jpg"
+  },
+  {
+    "s/n": 107,
+    "title": "The Family Secret: An utterly gripping domestic thriller with a mind-blowing twist",
+    "rating": "4.3",
+    "price": "$6.99",
+    "image URL": "https://m.media-amazon.com/images/I/51J5WzvMwpL._SY300_.jpg"
+  },
+  {
+    "s/n": 108,
+    "title": "Finding Ashlyn (SEAL Team Hawaii Book 6)",
+    "rating": "3.0",
+    "price": "$4.99",
+    "image URL": "https://m.media-amazon.com/images/I/41CpSmes8yL._SY300_.jpg"
+  }
+]
