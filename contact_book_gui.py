@@ -100,21 +100,23 @@ def clear_fields():
     name_str.set('')
     phone_str.set('')
     email_str.set('')
+    search_str.set('')
     address_entry.delete(1.0, END)
 
 
 def search_record():
     query = str(search_str.get())
-
+    print(query)
     if query != '':
-        listbox.delete(0, END)
+        # listbox.delete(0, END)
 
         curr = connector.execute(
-            "SELECT * FROM CONTACT_BOOK WHERE NAME= ?", ('%'+query+'%', )
-        )
-        check = curr.fetchall()
+    "SELECT * FROM CONTACT_BOOK WHERE NAME LIKE ?", ('%' + query + '%',)
+    )
 
+        check = curr.fetchall()
         for data in check:
+            listbox.delete(0, END)
             listbox.insert(END, data[1])
 
 
