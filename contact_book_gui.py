@@ -119,7 +119,13 @@ def search_record():
             listbox.delete(0, END)
             listbox.insert(END, data[1])
 
+        if listbox.get(ACTIVE):
+            values = check[0]
 
+            name_str.set(values[1]); phone_str.set(values[3]); email_str.set(values[2])
+
+            address_entry.delete(1.0, END)
+            address_entry.insert(END, values[4])
 
 
 Label(app, text="Contact Book", font=("Roboto", 15, "bold"), bg="Black", fg="White").pack(side=TOP, fill=X)
